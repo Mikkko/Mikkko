@@ -9,3 +9,7 @@ var obj = {
     email: 'KOSTYA.PAVLOV@gmail.com'
 };
 console.log(obj);
+
+obj = JSON.stringify(obj);
+
+console.log(obj);
